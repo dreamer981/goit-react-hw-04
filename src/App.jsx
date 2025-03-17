@@ -26,7 +26,7 @@ const App = () => {
           query,
           per_page: 12,
           page,
-          client_id: import.meta.env.VITE_UNSPLASH_ACCESS_KEY,
+          client_id: "u2m9dpe5u9-Qk3iOPJZ6nS39v4iF856cJEX26Q9_TCk",
         },
       });
       setIsLoading(false);
