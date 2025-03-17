@@ -1,0 +1,35 @@
+.header {
+  background-color: #352585;
+  padding: 20px;
+  text-align: center;
+  height: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 300px;
+  background-color: white;
+
+  padding-left: 40px;
+}
+
+.searchIcon {
+  width: 20px;
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
